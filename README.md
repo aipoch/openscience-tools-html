@@ -1,6 +1,6 @@
-# AIPOCH Open Science
+# AIPOCH Open-Science
 
-Source code for the AIPOCH Open Science website.
+Source code for the AIPOCH Open-Science website.
 
 - Production domain: <https://open-science.app>
 - Product overview: <https://aipoch.com/open-science/overview?lang=en>
@@ -52,7 +52,7 @@ release data. It is never copied into the image.
 ### GitHub Container Registry
 
 The [Publish container image](.github/workflows/publish-container.yml) workflow
-follows the [Open Science wiki publishing workflow](https://github.com/aipoch/openscience-wiki/blob/main/.github/workflows/publish-container.yml).
+follows the [Open-Science wiki publishing workflow](https://github.com/aipoch/openscience-wiki/blob/main/.github/workflows/publish-container.yml).
 Every push to `main` builds the existing Dockerfile for `linux/amd64` and
 publishes to `ghcr.io/<owner>/openscience-tools-html` with these tags:
 
@@ -108,4 +108,4 @@ front of the container when TLS termination or domain routing is required.
 - `Dockerfile` and `compose.yaml` — self-hosted production packaging
 
 The public site supports English and Chinese content, responsive layouts, and
-interactive Open Science workflow sections.
+interactive Open-Science workflow sections.

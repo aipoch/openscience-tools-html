@@ -119,7 +119,7 @@ export default function DownloadCards({
   );
 
   return (
-    <div className="download-grid" aria-label="Open Science installers">
+    <div className="download-grid" aria-label="Open-Science installers">
       {cards.map((card) => {
         const asset = assets[card.kind];
         const recommended = detectedOS === card.family;

@@ -55,7 +55,7 @@ const copy = {
     systemMeta: ["01 / SOURCE", "02 / EXECUTE", "03 / VERIFY", "04 / SHARE"],
     completeKicker: "01 / THE WORKBENCH",
     completeTitle: "A complete research workbench.",
-    completeBody: "Open Science turns a research question into an explicit plan, real execution, traceable artifacts and a result you can inspect.",
+    completeBody: "Open-Science turns a research question into an explicit plan, real execution, traceable artifacts and a result you can inspect.",
     workflow: [
       ["Plan", "Define the goal, source material, methods, boundaries and expected outputs before execution."],
       ["Execute", "Run agents, code, notebooks, scientific data tools and remote compute in the project."],
@@ -63,7 +63,7 @@ const copy = {
     ],
     evidenceKicker: "02 / EVIDENCE BY CONSTRUCTION",
     evidenceTitle: "Every result keeps its evidence.",
-    evidenceBody: "An artifact is more than a file. Open Science keeps versioned content together with the code, inputs, observed environment, producing conversation and reviewer findings it can verify.",
+    evidenceBody: "An artifact is more than a file. Open-Science keeps versioned content together with the code, inputs, observed environment, producing conversation and reviewer findings it can verify.",
     evidenceList: ["Immutable artifact versions", "Producer code and execution history", "Exact input references", "Reviewer evidence, attached to the version"],
     inspect: "Explore provenance",
     capabilitiesKicker: "03 / BUILT FOR REAL RESEARCH",
@@ -77,7 +77,7 @@ const copy = {
     compareKicker: "04 / PRODUCT LANDSCAPE",
     compareTitle: "Four workbenches. Different commitments.",
     compareBody: "They share a goal—connecting AI with scientific work—but differ in openness, model choice, product surface and how research evidence is retained.",
-    compareNames: ["AIPOCH\nOpen Science", "Synthetic Sciences\nOpenScience", "Anthropic\nClaude Science", "AI4S\nOpen Science Desktop"],
+    compareNames: ["AIPOCH\nOpen-Science", "Synthetic Sciences\nOpenScience", "Anthropic\nClaude Science", "AI4S\nOpen-Science Desktop"],
     compareLabel: "AIPOCH PICK",
     compareNote: "Publicly documented capabilities as of 3 September 2026. Catalog counts use each vendor’s own definitions and are not directly equivalent. “Best-aligned use” is an editorial inference from the cited product materials.",
     sourceTitle: "Official sources",
@@ -100,9 +100,9 @@ const copy = {
     ],
     controlKicker: "07 / DATA & CONTROL",
     controlTitle: "Local-first does not mean invisible data flow.",
-    controlBody: "Project state and provenance stay on the computer. When a model, web search or remote connector is used, Open Science makes the external action visible and keeps it behind the selected permission profile.",
+    controlBody: "Project state and provenance stay on the computer. When a model, web search or remote connector is used, Open-Science makes the external action visible and keeps it behind the selected permission profile.",
     controlItems: ["Local project state", "System credential storage", "Permissioned tool calls", "Inspectable execution logs"],
-    closeKicker: "AIPOCH / OPEN SCIENCE",
+    closeKicker: "AIPOCH / OPEN-SCIENCE",
     closeTitle: "Start with a question. Keep everything that makes the answer trustworthy.",
     closeBody: "Download the open-source workbench, inspect the code, and help build reusable scientific capability with the global research community.",
     docs: "Product overview",
@@ -132,7 +132,7 @@ const copy = {
     systemMeta: ["01 / 来源", "02 / 执行", "03 / 验证", "04 / 分享"],
     completeKicker: "01 / 科研工作台",
     completeTitle: "一个完整的科研工作台。",
-    completeBody: "Open Science 将研究问题转化为明确计划、真实执行、可追溯资产，以及能够检查的结果。",
+    completeBody: "Open-Science 将研究问题转化为明确计划、真实执行、可追溯资产，以及能够检查的结果。",
     workflow: [
       ["计划", "在执行之前定义目标、源材料、方法、边界与预期产出。"],
       ["执行", "在项目中运行 Agents、代码、Notebook、科学数据工具与远程算力。"],
@@ -140,7 +140,7 @@ const copy = {
     ],
     evidenceKicker: "02 / 从一开始就保留证据",
     evidenceTitle: "每个结果，都带着它的证据。",
-    evidenceBody: "科研资产不只是一个文件。Open Science 将版本化内容与能够验证的代码、输入、运行环境、产生它的对话和 Reviewer 发现放在一起。",
+    evidenceBody: "科研资产不只是一个文件。Open-Science 将版本化内容与能够验证的代码、输入、运行环境、产生它的对话和 Reviewer 发现放在一起。",
     evidenceList: ["不可变的资产版本", "生成代码与执行历史", "精确的输入引用", "与版本绑定的 Reviewer 证据"],
     inspect: "探索溯源能力",
     capabilitiesKicker: "03 / 面向真实科研",
@@ -154,7 +154,7 @@ const copy = {
     compareKicker: "04 / 产品格局",
     compareTitle: "四个工作台，不同的产品承诺。",
     compareBody: "它们都希望将 AI 与科学研究连接起来，但在开放性、模型选择、产品形态和证据保留方式上并不相同。",
-    compareNames: ["AIPOCH\nOpen Science", "Synthetic Sciences\nOpenScience", "Anthropic\nClaude Science", "AI4S\nOpen Science Desktop"],
+    compareNames: ["AIPOCH\nOpen-Science", "Synthetic Sciences\nOpenScience", "Anthropic\nClaude Science", "AI4S\nOpen-Science Desktop"],
     compareLabel: "AIPOCH 方案",
     compareNote: "基于截至 2026 年 9 月 3 日的公开资料。能力目录数量采用各产品自己的定义，不能直接等量比较。“更匹配的场景”为根据所列官方资料做出的编辑性判断。",
     sourceTitle: "官方资料来源",
@@ -177,9 +177,9 @@ const copy = {
     ],
     controlKicker: "07 / 数据与控制",
     controlTitle: "本地优先，不等于隐藏数据流向。",
-    controlBody: "项目状态与溯源记录保留在本机。当使用模型、网络搜索或远程 Connector 时，Open Science 会显示外部操作，并让它受所选权限策略控制。",
+    controlBody: "项目状态与溯源记录保留在本机。当使用模型、网络搜索或远程 Connector 时，Open-Science 会显示外部操作，并让它受所选权限策略控制。",
     controlItems: ["本地项目状态", "系统安全凭据存储", "受权限控制的工具调用", "可检查的执行日志"],
-    closeKicker: "AIPOCH / OPEN SCIENCE",
+    closeKicker: "AIPOCH / OPEN-SCIENCE",
     closeTitle: "从一个问题开始，保留让答案值得信任的一切。",
     closeBody: "下载开源科研工作台，检查代码，并与全球科研社区一起构建可复用的科学能力。",
     docs: "查看产品介绍",
@@ -223,10 +223,10 @@ export default function OpenScienceV2() {
     <main className={`v2-site ${lang === "zh" ? "v2-zh" : ""}`}>
       <div className="v2-progress" aria-hidden="true" />
       <header className="v2-header">
-        <a className="v2-brand" href="#v2-top" aria-label="AIPOCH Open Science home">
+        <a className="v2-brand" href="#v2-top" aria-label="AIPOCH Open-Science home">
           <img src="/assets/aipoch-mark.png" alt="AIPOCH" />
           <i />
-          <span>OPEN SCIENCE</span>
+          <span>OPEN-SCIENCE</span>
         </a>
         <nav className={menuOpen ? "v2-nav is-open" : "v2-nav"} aria-label="Primary navigation">
           {c.nav.map((item, index) => (
@@ -256,20 +256,20 @@ export default function OpenScienceV2() {
             {c.proofs.map((proof) => <span key={proof}><i>✓</i>{proof}</span>)}
           </div>
         </div>
-        <div className="v2-hero-board" aria-label="Open Science product preview">
+        <div className="v2-hero-board" aria-label="Open-Science product preview">
           <div className="v2-board-head"><span><i />{c.boardLabel}</span><b>OS / 0.25</b></div>
-          <div className="v2-board-screen"><img src="/assets/v2-workspace.png" alt="Open Science research workspace" /></div>
+          <div className="v2-board-screen"><img src="/assets/v2-workspace.png" alt="Open-Science research workspace" /></div>
           <article className="v2-insight-card"><span>01 / {c.boardCard}</span><strong>{c.boardCardCopy}</strong><i>→</i></article>
           <article className="v2-status-card"><span>{c.boardStatus}</span><b>PASS</b><p>{c.boardStatusCopy}</p></article>
         </div>
       </section>
 
-      <div className="v2-rail" aria-label="Open Science foundations">
+      <div className="v2-rail" aria-label="Open-Science foundations">
         {c.rails.map((item) => <span key={item}>{item}</span>)}
       </div>
 
       <section className="v2-system" aria-label={c.systemKicker}>
-        <img src="/assets/aipoch-system-map.png" alt="AIPOCH Open Science system architecture connecting research tools and evidence" />
+        <img src="/assets/aipoch-system-map.png" alt="AIPOCH Open-Science system architecture connecting research tools and evidence" />
         <div className="v2-system-copy">
           <p className="v2-kicker">00 / {c.systemKicker}</p>
           <h2>{c.systemTitle}</h2>
@@ -298,7 +298,7 @@ export default function OpenScienceV2() {
 
       <section className="v2-evidence" id="evidence-v2">
         <div className="v2-evidence-media">
-          <div className="v2-image-frame"><img src="/assets/v2-csv-preview.jpg" alt="Open Science artifact preview beside its research session" /></div>
+          <div className="v2-image-frame"><img src="/assets/v2-csv-preview.jpg" alt="Open-Science artifact preview beside its research session" /></div>
           <div className="v2-code-note"><span>ARTIFACT / FIGURE_01</span><b>sha256: 4f7c…9a2d</b><p>code · inputs · environment · review</p></div>
         </div>
         <div className="v2-evidence-copy">
@@ -412,7 +412,7 @@ export default function OpenScienceV2() {
       </section>
 
       <footer className="v2-footer">
-        <div className="v2-brand"><img src="/assets/aipoch-mark.png" alt="AIPOCH" /><i /><span>OPEN SCIENCE</span></div>
+        <div className="v2-brand"><img src="/assets/aipoch-mark.png" alt="AIPOCH" /><i /><span>OPEN-SCIENCE</span></div>
         <p>{c.footer}</p>
         <div><a href="https://github.com/aipoch/open-science" target="_blank" rel="noreferrer">{c.github} ↗</a><a href="https://aipoch.com/contact-us" target="_blank" rel="noreferrer">{c.partner} ↗</a><a href="#v2-top">TOP ↑</a></div>
       </footer>

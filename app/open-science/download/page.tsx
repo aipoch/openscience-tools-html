@@ -13,31 +13,31 @@ const REPOSITORY_URL = "https://github.com/aipoch/open-science";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Download Open Science for macOS, Windows and Linux | AIPOCH",
+  title: "Download Open-Science for macOS, Windows and Linux | AIPOCH",
   description:
-    "Download the latest stable Open Science desktop app for Apple Silicon, Intel Mac, Windows x64, or Linux. Check system requirements and SHA256 checksums.",
+    "Download the latest stable Open-Science desktop app for Apple Silicon, Intel Mac, Windows x64, or Linux. Check system requirements and SHA256 checksums.",
   alternates: { canonical: DOWNLOAD_URL },
   openGraph: {
-    title: "Download Open Science for macOS, Windows and Linux",
+    title: "Download Open-Science for macOS, Windows and Linux",
     description:
-      "Get the latest stable AIPOCH Open Science desktop app and verify your installer.",
+      "Get the latest stable AIPOCH Open-Science desktop app and verify your installer.",
     url: DOWNLOAD_URL,
-    siteName: "AIPOCH Open Science",
+    siteName: "AIPOCH Open-Science",
     type: "website",
     images: [
       {
         url: "https://aipoch.com/og-open-science-download.png",
         width: 1200,
         height: 630,
-        alt: "Download AIPOCH Open Science for macOS, Windows, and Linux",
+        alt: "Download AIPOCH Open-Science for macOS, Windows, and Linux",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Download Open Science for macOS, Windows and Linux",
+    title: "Download Open-Science for macOS, Windows and Linux",
     description:
-      "Get the latest stable AIPOCH Open Science desktop app and verify your installer.",
+      "Get the latest stable AIPOCH Open-Science desktop app and verify your installer.",
     images: ["https://aipoch.com/og-open-science-download.png"],
   },
 };
@@ -67,14 +67,14 @@ const faqs = [
       "Official stable macOS releases are Developer ID signed and notarized by Apple. Locally built copies are not notarized and may require approval in Privacy & Security.",
   },
   {
-    question: "Does Open Science update automatically?",
+    question: "Does Open-Science update automatically?",
     answer:
-      "Yes. After installation, Open Science checks the stable update channel and can update itself in place. This page remains the source for first installs, recovery, and manual verification.",
+      "Yes. After installation, Open-Science checks the stable update channel and can update itself in place. This page remains the source for first installs, recovery, and manual verification.",
   },
   {
     question: "Does the installer include an AI model?",
     answer:
-      "No. Open Science is model-agnostic. During first-run setup, you choose and connect a supported agent runtime and model provider. App-managed runtimes can be installed without a separate Node.js setup.",
+      "No. Open-Science is model-agnostic. During first-run setup, you choose and connect a supported agent runtime and model provider. App-managed runtimes can be installed without a separate Node.js setup.",
   },
   {
     question: "Where are the release notes and older versions?",
@@ -97,7 +97,7 @@ export default async function DownloadPage() {
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      name: "AIPOCH Open Science",
+      name: "AIPOCH Open-Science",
       applicationCategory: "ScienceApplication",
       operatingSystem: "macOS 12+, Windows 10/11 x64, Linux x64",
       softwareVersion: release.version,
@@ -135,13 +135,13 @@ export default async function DownloadPage() {
         <a
           className="download-brand"
           href="https://aipoch.com/open-science"
-          aria-label="AIPOCH Open Science home"
+          aria-label="AIPOCH Open-Science home"
         >
           <img src="/assets/aipoch-mark.png" alt="AIPOCH" />
         </a>
         <nav aria-label="Download page navigation">
           <a className="is-active" href="https://aipoch.com/open-science">
-            Open Science
+            Open-Science
           </a>
           <a href="https://aipoch.com/medflow">Product</a>
           <a href="https://aipoch.com/agent-skills">Agent Skills</a>
@@ -151,7 +151,7 @@ export default async function DownloadPage() {
         <div className="download-header-actions">
           <a href="https://aipoch.com/docs/">Docs</a>
           <a className="header-download-button" href="#downloads">
-            Get Open Science
+            Get Open-Science
           </a>
         </div>
       </header>
@@ -159,9 +159,9 @@ export default async function DownloadPage() {
       <section className="download-hero">
         <div className="download-hero-grid" aria-hidden="true" />
         <div className="download-hero-copy">
-          <p className="download-kicker">OPEN SCIENCE / DOWNLOAD</p>
+          <p className="download-kicker">OPEN-SCIENCE / DOWNLOAD</p>
           <h1>
-            <span>Download Open Science</span>
+            <span>Download Open-Science</span>
             <span>for macOS, Windows and Linux</span>
           </h1>
           <p className="download-lede">
@@ -206,7 +206,7 @@ export default async function DownloadPage() {
           <div>
             <h2>Know before you install.</h2>
             <p>
-              Open Science is a desktop application. Python and R are optional;
+              Open-Science is a desktop application. Python and R are optional;
               the guided setup can prepare app-managed research environments.
             </p>
           </div>
@@ -324,7 +324,7 @@ export default async function DownloadPage() {
           <p className="download-kicker">BUILD FROM SOURCE</p>
           <h2>Inspect it. Build it. Change it.</h2>
           <p>
-            Open Science is licensed under Apache 2.0. Source builds require
+            Open-Science is licensed under Apache 2.0. Source builds require
             Git, Node.js 22, and npm. Packaged output is written to the
             repository&apos;s <code>dist/</code> directory.
           </p>
@@ -358,7 +358,7 @@ npm run build:linux`}</code>
           <h2>Install once. Stay on the stable channel.</h2>
         </div>
         <p>
-          Open Science checks its official stable update feed and can update in
+          Open-Science checks its official stable update feed and can update in
           place after installation. New stable GitHub assets also appear on this
           page automatically within one hour—drafts, prereleases, and incomplete
           uploads are ignored.
