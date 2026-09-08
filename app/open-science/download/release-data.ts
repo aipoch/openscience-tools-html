@@ -147,7 +147,7 @@ function normalizeRelease(value: unknown): StableRelease | null {
     version: release.tag_name.replace(/^v/i, ""),
     name: isNonEmptyString(release.name)
       ? release.name
-      : `Open Science ${release.tag_name}`,
+      : `Open-Science ${release.tag_name}`,
     publishedAt: release.published_at,
     releaseUrl: release.html_url,
     checksumUrl: checksumAsset.browser_download_url,

@@ -186,9 +186,9 @@ test("server-renders a complete download page without client JavaScript", async 
   const html = await response.text();
   assert.match(
     html,
-    /<title>Download Open Science for macOS, Windows and Linux \| AIPOCH<\/title>/,
+    /<title>Download Open-Science for macOS, Windows and Linux \| AIPOCH<\/title>/,
   );
-  assert.match(html, /Download Open Science/);
+  assert.match(html, /Download Open-Science/);
   assert.match(html, /for macOS, Windows and Linux/);
   assert.match(html, /Stable [\s\S]{0,30}v\d+\.\d+\.\d+/);
   assert.match(html, /Apple Silicon/);
@@ -214,7 +214,7 @@ test("server-renders a complete download page without client JavaScript", async 
   }
 });
 
-test("publishes download metadata and the Open Science guide sitemap entry", async () => {
+test("publishes download metadata and the Open-Science guide sitemap entry", async () => {
   const pageResponse = await render("/open-science/download");
   const pageHtml = await pageResponse.text();
   assert.match(
@@ -234,23 +234,23 @@ test("publishes download metadata and the Open Science guide sitemap entry", asy
   assert.match(sitemapXml, /<loc>https:\/\/open-science\.app\/<\/loc>/);
 });
 
-test("publishes distinct metadata and structured data for the Open Science guide", async () => {
+test("publishes distinct metadata and structured data for the Open-Science guide", async () => {
   const response = await render("/");
   assert.equal(response.status, 200);
   const html = await response.text();
 
   assert.match(
     html,
-    /<title>Open Science: Tools and Workflows for Reproducible Research \| AIPOCH<\/title>/,
+    /<title>Open-Science: Tools and Workflows for Reproducible Research \| AIPOCH<\/title>/,
   );
   assert.match(
     html,
     /<link rel="canonical" href="https:\/\/open-science\.app"\/?>/,
   );
-  assert.match(html, /Open Science for[\s\S]{0,80}Reproducible Research/);
+  assert.match(html, /Open-Science for[\s\S]{0,80}Reproducible Research/);
   assert.match(html, /"@type":"CollectionPage"/);
   assert.match(html, /"@type":"FAQPage"/);
-  assert.match(html, /Does Open Science guarantee reproducible results\?/);
+  assert.match(html, /Does Open-Science guarantee reproducible results\?/);
 });
 
 test("serves the V2 page and robots policy", async () => {
@@ -260,7 +260,7 @@ test("serves the V2 page and robots policy", async () => {
   const v2Html = await v2Response.text();
   assert.match(
     v2Html,
-    /<title>AIPOCH Open Science . One Traceable Research Workspace<\/title>/,
+    /<title>AIPOCH Open-Science . One Traceable Research Workspace<\/title>/,
   );
   assert.match(v2Html, /One traceable workspace/);
 

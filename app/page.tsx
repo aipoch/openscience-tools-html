@@ -9,17 +9,17 @@ const copy = {
     nav: ["Principles", "Workflow", "Tools", "FAQ"],
     navIds: ["why", "journey", "tools", "faq"],
     open: "Open the AIPOCH workbench",
-    eyebrow: "AIPOCH / OPEN SCIENCE",
-    hero: ["Open Science for", "Reproducible Research."],
+    eyebrow: "AIPOCH / OPEN-SCIENCE",
+    hero: ["Open-Science for", "Reproducible Research."],
     heroTagline: "Build science in the open.",
     intro:
-      "Open Science by AIPOCH is an open-source, local-first, model-agnostic research workbench. Keep questions, evidence, methods, execution and artifacts connected in one inspectable workspace.",
-    explore: "Explore the Open Science workflow",
+      "Open-Science by AIPOCH is an open-source, local-first, model-agnostic research workbench. Keep questions, evidence, methods, execution and artifacts connected in one inspectable workspace.",
+    explore: "Explore the Open-Science workflow",
     download: "Open the AIPOCH workbench",
     github: "Open the AIPOCH workbench",
     signal: "OPEN BY DESIGN · BUILT WITH THE RESEARCH COMMUNITY",
-    whyKicker: "01 / THE OPEN SCIENCE GAP",
-    whyTitle: "Why Open Science needs a connected workflow.",
+    whyKicker: "01 / THE OPEN-SCIENCE GAP",
+    whyTitle: "Why Open-Science needs a connected workflow.",
     whyBody:
       "The hard part is keeping evidence, methods, tools, compute and outputs connected. Research should move forward—not reset at every tool boundary.",
     gaps: [
@@ -30,10 +30,10 @@ const copy = {
       ["Validation", "Checks", "Methods and outputs drift apart"],
       ["Outputs", "Artifacts", "Files lose context and provenance"],
     ],
-    gapLabel: "OPEN SCIENCE PRIORITIES",
+    gapLabel: "OPEN-SCIENCE PRIORITIES",
     gapTerms: "ACCESS · TRANSPARENCY · REPRODUCIBILITY · PROVENANCE",
     workKicker: "02 / ONE CONNECTED WORKFLOW",
-    workTitle: "Turn Open Science principles into daily practice.",
+    workTitle: "Turn Open-Science principles into daily practice.",
     workBody:
       "A connected workbench gives researchers one place to organize the project, choose tools, run the work and review what happened.",
     values: [
@@ -43,7 +43,7 @@ const copy = {
       ["Designed for reproducibility", "Keep context & records"],
     ],
     continuum: ["Ask", "Assemble", "Run", "Review"],
-    journeyKicker: "03 / AN OPEN SCIENCE WORKFLOW",
+    journeyKicker: "03 / AN OPEN-SCIENCE WORKFLOW",
     journeyTitle: "One research question. Six traceable steps.",
     journeyBody:
       "Follow a paper-reproduction task from the first question to a result another researcher can inspect. Each step keeps its sources, decisions and outputs connected.",
@@ -100,7 +100,7 @@ const copy = {
         image: "/assets/product-reviewer.jpg",
       },
     ],
-    stackKicker: "04 / OPEN SCIENCE TOOLS",
+    stackKicker: "04 / OPEN-SCIENCE TOOLS",
     stackTitle: "Choose tools around the research.",
     stackBody:
       "Combine agents, models, runtimes, compute and data without losing the research context.",
@@ -138,48 +138,48 @@ const copy = {
       ["Control", "Set approvals and permission modes for every session."],
     ],
     communityKicker: "07 / THE OPEN RESEARCH COMMONS",
-    communityTitle: "Open Science is a shared practice.",
+    communityTitle: "Open-Science is a shared practice.",
     communityBody:
       "Researchers run workflows. Domain experts contribute methods. Developers connect tools and data. Teams share results without losing the evidence behind them.",
     roles: ["Researchers", "Domain experts", "Developers", "Research teams"],
     loop: ["Use", "Ask", "Review", "Share", "Improve"],
     faqKicker: "08 / QUESTIONS",
-    faqTitle: "What Open Science supports—and what it does not claim.",
+    faqTitle: "What Open-Science supports—and what it does not claim.",
     faqs: [
       {
-        question: "Does Open Science guarantee reproducible results?",
-        answer: "No software can guarantee that a research result will be reproduced. Open Science helps researchers preserve evidence, methods, execution records and artifacts so the work can be inspected, reviewed and rerun.",
+        question: "Does Open-Science guarantee reproducible results?",
+        answer: "No software can guarantee that a research result will be reproduced. Open-Science helps researchers preserve evidence, methods, execution records and artifacts so the work can be inspected, reviewed and rerun.",
       },
       {
-        question: "Is Open Science intended for clinical use?",
-        answer: "No. Open Science is designed for research workflows and is not intended for clinical diagnosis, treatment or other medical decisions.",
+        question: "Is Open-Science intended for clinical use?",
+        answer: "No. Open-Science is designed for research workflows and is not intended for clinical diagnosis, treatment or other medical decisions.",
       },
     ],
-    closeEyebrow: "OPEN SCIENCE BY AIPOCH",
+    closeEyebrow: "OPEN-SCIENCE BY AIPOCH",
     closeTitle: "Build science in the open.",
     closeBody:
       "Learn the principles, follow the workflow and open the AIPOCH workbench when you are ready to run real research.",
-    guide: "Open Science guide",
+    guide: "Open-Science guide",
     overview: "Official product overview",
     docs: "GitHub & documentation",
-    footer: "Open Science is an open-source research workbench by AIPOCH, designed to support transparent and reproducible research workflows. Research outputs should be independently reviewed. Not intended for clinical diagnosis, treatment or other medical decisions.",
+    footer: "Open-Science is an open-source research workbench by AIPOCH, designed to support transparent and reproducible research workflows. Research outputs should be independently reviewed. Not intended for clinical diagnosis, treatment or other medical decisions.",
     trademark: "Third-party product names and trademarks belong to their respective owners. No affiliation or endorsement is implied unless expressly stated.",
   },
   zh: {
     nav: ["开放原则", "工作流", "工具", "常见问题"],
     navIds: ["why", "journey", "tools", "faq"],
     open: "打开 AIPOCH 工作台",
-    eyebrow: "AIPOCH / OPEN SCIENCE",
-    hero: ["面向可复现研究的", "Open Science。"],
+    eyebrow: "AIPOCH / OPEN-SCIENCE",
+    hero: ["面向可复现研究的", "Open-Science。"],
     heroTagline: "在开放中构建科学。",
     intro:
-      "AIPOCH Open Science 是一个开源、本地优先、模型自由的科研工作台，让问题、证据、方法、执行与研究资产在同一个可检查的工作空间中保持连接。",
-    explore: "探索 Open Science 工作流",
+      "AIPOCH Open-Science 是一个开源、本地优先、模型自由的科研工作台，让问题、证据、方法、执行与研究资产在同一个可检查的工作空间中保持连接。",
+    explore: "探索 Open-Science 工作流",
     download: "打开 AIPOCH 工作台",
     github: "打开 AIPOCH 工作台",
     signal: "以开放为原则 · 与全球科研社区共同构建",
-    whyKicker: "01 / OPEN SCIENCE 的断层",
-    whyTitle: "为什么 Open Science 需要相互连接的工作流。",
+    whyKicker: "01 / OPEN-SCIENCE 的断层",
+    whyTitle: "为什么 Open-Science 需要相互连接的工作流。",
     whyBody:
       "真正困难的，是让证据、方法、工具、算力和产出始终保持连接。科研应该持续向前，而不是在每个工具边界重新开始。",
     gaps: [
@@ -190,10 +190,10 @@ const copy = {
       ["验证", "检查机制", "方法与结果逐渐脱节"],
       ["产出", "研究资产", "文件失去上下文与溯源"],
     ],
-    gapLabel: "OPEN SCIENCE 的重点",
+    gapLabel: "OPEN-SCIENCE 的重点",
     gapTerms: "开放获取 · 过程透明 · 可复现性 · 研究溯源",
     workKicker: "02 / 一个相互连接的工作流",
-    workTitle: "把 Open Science 原则带进日常科研。",
+    workTitle: "把 Open-Science 原则带进日常科研。",
     workBody:
       "相互连接的工作台，让研究者可以在同一个地方组织项目、选择工具、执行工作，并检查发生过什么。",
     values: [
@@ -203,7 +203,7 @@ const copy = {
       ["为可复现性设计", "保留上下文与记录"],
     ],
     continuum: ["提问", "组装", "执行", "审阅"],
-    journeyKicker: "03 / OPEN SCIENCE 工作流",
+    journeyKicker: "03 / OPEN-SCIENCE 工作流",
     journeyTitle: "一个科研问题，六个可追溯步骤。",
     journeyBody:
       "沿着一项论文复现任务，从第一个问题走到另一位研究者可以检查的结果。每一步都保留对应的来源、决策与产出。",
@@ -259,7 +259,7 @@ const copy = {
         image: "/assets/product-reviewer.jpg",
       },
     ],
-    stackKicker: "04 / OPEN SCIENCE 工具",
+    stackKicker: "04 / OPEN-SCIENCE 工具",
     stackTitle: "围绕研究选择工具。",
     stackBody: "组合 Agent、模型、运行时、算力与数据，同时保留研究上下文。",
     stack: [
@@ -295,31 +295,31 @@ const copy = {
       ["控制", "为每个会话设置批准流程与权限模式。"],
     ],
     communityKicker: "07 / 开放科研共同体",
-    communityTitle: "Open Science 是一种共同实践。",
+    communityTitle: "Open-Science 是一种共同实践。",
     communityBody:
       "研究者运行工作流，领域专家贡献方法，开发者连接工具与数据，研究团队在不丢失证据脉络的前提下分享结果。",
     roles: ["研究者", "领域专家", "开发者", "研究团队"],
     loop: ["使用", "提问", "审阅", "分享", "改进"],
     faqKicker: "08 / 常见问题",
-    faqTitle: "Open Science 支持什么，以及不承诺什么。",
+    faqTitle: "Open-Science 支持什么，以及不承诺什么。",
     faqs: [
       {
-        question: "Open Science 能保证研究结果被成功复现吗？",
-        answer: "不能。任何软件都无法保证一项研究结果一定能被复现。Open Science 帮助研究者保留证据、方法、执行记录与研究资产，使研究工作更便于检查、审阅与重新运行。",
+        question: "Open-Science 能保证研究结果被成功复现吗？",
+        answer: "不能。任何软件都无法保证一项研究结果一定能被复现。Open-Science 帮助研究者保留证据、方法、执行记录与研究资产，使研究工作更便于检查、审阅与重新运行。",
       },
       {
-        question: "Open Science 可以用于临床用途吗？",
-        answer: "不可以。Open Science 面向科研工作流，不用于临床诊断、治疗或其他医学决策。",
+        question: "Open-Science 可以用于临床用途吗？",
+        answer: "不可以。Open-Science 面向科研工作流，不用于临床诊断、治疗或其他医学决策。",
       },
     ],
-    closeEyebrow: "OPEN SCIENCE BY AIPOCH",
+    closeEyebrow: "OPEN-SCIENCE BY AIPOCH",
     closeTitle: "在开放中构建科学。",
     closeBody:
       "了解开放原则，沿着工作流实践；当你准备运行真实科研任务时，打开 AIPOCH 工作台。",
-    guide: "Open Science 指南",
+    guide: "Open-Science 指南",
     overview: "官方产品介绍",
     docs: "GitHub 与文档",
-    footer: "Open Science 是 AIPOCH 推出的开源科研工作台，旨在支持透明、可复现的科研工作流。研究产出应由专业人员独立审阅，不用于临床诊断、治疗或其他医学决策。",
+    footer: "Open-Science 是 AIPOCH 推出的开源科研工作台，旨在支持透明、可复现的科研工作流。研究产出应由专业人员独立审阅，不用于临床诊断、治疗或其他医学决策。",
     trademark: "第三方产品名称和商标归其各自权利人所有。除非另有明确说明，不代表存在关联、合作或背书。",
   },
 } as const;
@@ -351,8 +351,8 @@ export default function Home() {
       <div className="scroll-progress" aria-hidden="true" />
       <header className="site-header">
         <div className="brand">
-          <a className="brand-home" href="#top" aria-label="Open Science home">
-            <img className="brand-logo" src="/open-science-logo.png" alt="" aria-hidden="true" />
+          <a className="brand-home" href="#top" aria-label="Open-Science home">
+            <img className="brand-logo" src="/open-science-primary-logo.svg" alt="" aria-hidden="true" />
           </a>
           <a className="brand-by" href="https://aipoch.com/" target="_blank" rel="noreferrer" aria-label="Visit the AIPOCH website">by AIPOCH</a>
         </div>
@@ -449,15 +449,15 @@ export default function Home() {
         </div>
         <div className="product-stage">
           <div className="product-window main-window">
-            <div className="window-bar"><span/><span/><span/><b>OPEN SCIENCE / PROJECT</b></div>
-            <img src="/assets/product-project.png" alt="Open Science project workspace" />
+            <div className="window-bar"><span/><span/><span/><b>OPEN-SCIENCE / PROJECT</b></div>
+            <img src="/assets/product-project.png" alt="Open-Science project workspace" />
           </div>
           <div className="product-window floating-window">
-            <img src="/assets/product-plan.png" alt="Open Science research plan" />
+            <img src="/assets/product-plan.png" alt="Open-Science research plan" />
           </div>
           <span className="stage-label">A SHARED, PERSISTENT RESEARCH SPACE</span>
         </div>
-        <div className="continuum" aria-label="Open Science workflow">
+        <div className="continuum" aria-label="Open-Science workflow">
           {c.continuum.map((item, index) => (
             <div key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong>{index < c.continuum.length - 1 && <i>→</i>}</div>
           ))}
@@ -543,7 +543,7 @@ export default function Home() {
           <div className="yellow-orbit" aria-hidden="true" />
           <div className="product-window dark-window">
             <div className="window-bar"><span/><span/><span/><b>SKILLS / MARKETPLACE</b></div>
-            <img src="/assets/product-skills.png" alt="Open Science skills marketplace" />
+            <img src="/assets/product-skills.png" alt="Open-Science skills marketplace" />
           </div>
         </div>
       </section>
@@ -567,7 +567,7 @@ export default function Home() {
           </div>
           <div className="artifact-collage">
             <figure className="artifact-main"><img src="/assets/product-artifacts.png" alt="Research artifacts in split view" /></figure>
-            <figure className="artifact-review"><img src="/assets/product-reviewer.jpg" alt="Open Science reviewer interface" /></figure>
+            <figure className="artifact-review"><img src="/assets/product-reviewer.jpg" alt="Open-Science reviewer interface" /></figure>
             <span className="collage-note">MATERIAL → EXECUTION → ARTIFACT → CLAIM</span>
           </div>
         </div>
@@ -628,7 +628,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <div className="brand footer-brand"><a className="brand-home" href="#top" aria-label="Open Science home"><img className="brand-logo" src="/open-science-logo.png" alt="" aria-hidden="true" /></a><a className="brand-by" href="https://aipoch.com/" target="_blank" rel="noreferrer" aria-label="Visit the AIPOCH website">by AIPOCH</a></div>
+        <div className="brand footer-brand"><a className="brand-home" href="#top" aria-label="Open-Science home"><img className="brand-logo" src="/open-science-primary-logo.svg" alt="" aria-hidden="true" /></a><a className="brand-by" href="https://aipoch.com/" target="_blank" rel="noreferrer" aria-label="Visit the AIPOCH website">by AIPOCH</a></div>
         <div className="footer-copy"><p>{c.footer}</p><p>{c.trademark}</p></div>
         <div><span>© 2026 AIPOCH</span><a href="#top">BACK TO TOP ↑</a></div>
       </footer>

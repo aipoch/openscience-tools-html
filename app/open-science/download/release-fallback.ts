@@ -5,7 +5,7 @@ import type { StableRelease } from "./release-data";
 export const fallbackRelease: StableRelease = {
   tag: "v0.25.1",
   version: "0.25.1",
-  name: "Open Science v0.25.1",
+  name: "Open-Science v0.25.1",
   publishedAt: "2026-09-03T04:52:15Z",
   releaseUrl: "https://github.com/aipoch/open-science/releases/tag/v0.25.1",
   checksumUrl:

@@ -98,7 +98,7 @@ img {
 
 .brand-logo {
   width: auto;
-  height: 29px;
+  height: 26px;
   flex: none;
   object-fit: contain;
 }
@@ -1658,7 +1658,7 @@ footer a:hover {
   }
 
   .brand-logo {
-    height: 25px;
+    height: 20px;
   }
 
   .brand-by {
